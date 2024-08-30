@@ -1,0 +1,33 @@
+label{
+    margin: 5px 0px;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.dataheading{
+    margin: 5px 0px;
+}
+
+input{
+    padding: 13px 8px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    width: 90%;
+    margin: 10px 0px;
+}
+
+button{
+    margin: 10px 0px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: aquamarine;
+}
+
+h1{
+    color: blueviolet;
+}

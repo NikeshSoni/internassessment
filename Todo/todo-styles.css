@@ -1,0 +1,75 @@
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.todo-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+
+li {
+    background: #f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+    border-radius: 2px silid gray;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: #ff4d4d;
+    cursor: pointer;
+    font-size: 16px;
+}
